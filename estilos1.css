@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(https://64.media.tumblr.com/5ab5cd7d60ab48c3f318b4760e298829/tumblr_pmsujem9h61w46s3lo4_540.gifv);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 140px;
+  margin-left: 2px;
+  height: 90px;
+}
+
+/*
+.menu-btn {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-menu {
+  font-family: "Comfortaa", cursive;
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 100px;
+  background: rgba(178, 121, 181, 0.95);
+  text-align: center;
+  transition: all 0.5s;
+}
+.nav-menu li {
+  display: none;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+.active {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.active:hover {
+  color: rgb(70, 171, 226);
+  transition: 0.3s;
+}
+
+#check {
+  display: none;
+}
+#check:checked ~ .nav-menu {
+  height: 100vh;
+}
+#check:checked ~ .nav-menu li {
+  display: block;
+}*/
+.banner-text {
+  font-family: Impact;
+  padding: 0 30px;
+  margin-top: 150px;
+  text-align: center;
+  color: rgb(81, 166, 223);
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.banner-text span {
+  color: rgb(168, 71, 188);
+}
+
+.banner-text h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button1 {
+  font-family: "Pacifico", cursive;
+  margin-right: 40ox;
+  padding: 10px 30px;
+  background-color: rgb(168, 71, 188);
+  color: rgb(242, 242, 242);
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: rgb(248, 248, 248);
+  color: rgb(209, 128, 225);
+  transition: 0.5s;
+}
+
+.button2 {
+  font-family: "Pacifico", cursive;
+  margin-right: 40px;
+  padding: 10px 30px;
+  background-color: rgb(97, 158, 204);
+
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.button2:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(70, 171, 226);
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: 50px;
+  }
+
+  nav {
+    height: 100px;
+  }
+
+  /*.menu-btn {
+    display: none;
+  }
+
+  .nav-menu {
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  .nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+  }
+
+  .nav-menu li a {
+    font-size: 12px;
+  }
+
+  .active {
+    font-size: 12px;
+  }*/
+
+  .banner-tex h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .banner-tex h2 {
+    font-size: 20px;
+  }
+}

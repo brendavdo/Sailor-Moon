@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.lista {
+  font-family: "Comfortaa", cursive;
+}
+
+.lista::before {
+  content: "🐟";
+  margin-right: 9px;
+  max-width: 8px;
+  max-height: 8px;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+:root {
+  --font-family-parrafo: "Comfortaa", cursive;
+  --color-de-fondo: rgb(207, 134, 185);
+  --font-family-titulo: "Lobster", cursive;
+  --background_fondo1: url(https://www.nawpic.com/media/2020/aesthetic-backgrounds-nawpic-75.jpg);
+  --background-header: url(https://data.whicdn.com/images/331463494/original.gif);
+}
+
+.colores {
+  background: var(--color);
+}
+
+.tipo_de_letra_parrafos {
+  font-family: var(--font-family-parrafo);
+}
+
+.tipo_de_letra_titulos {
+  font-family: var(--font-family-titulo);
+}
+
+header {
+  background-image: url(./fondo\ 1.jpg);
+  width: 100%;
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background: url(https://64.media.tumblr.com/75b58205e1ccaccb12cc6e22671bd659/tumblr_pc32ilA1nn1xzxcugo3_1280.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.centrado {
+  border-radius: 1rem;
+  width: 9rem;
+  height: 11rem;
+  padding: 0.2rem;
+  margin-top: 0.4rem;
+}
+
+.serena-gif {
+  border-radius: 1rem;
+  width: 11rem;
+  height: 12rem;
+  padding: 0.3rem;
+}
+
+.serenadisfraz {
+  border-radius: 1.2rem;
+  width: 8rem;
+  height: 9.5rem;
+}
+
+.imag-de-inicio {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 60vh;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 110%;
+  font-family: var(--font-family-parrafo);
+  align-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(250, 250, 250);
+  font-family: "Franklin Gothic Medium";
+}
+
+.conetenido-asiladito {
+  /*contenedor padre*/
+  width: 95%;
+  background-color: rgb(122, 126, 125);
+}
+
+.asiladito {
+  background-color: rgb(226, 172, 235);
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/*subrayar los parrafos
+.asiladito p {
+  background-color: rgb(191, 166, 220);
+}
+*/
+.asiladito-caja-apariencia {
+  background-color: rgb(226, 172, 235);
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.anime {
+  color: black;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: var(--font-family-titulo);
+}
+
+/* .encabezado {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+} */
+
+
+footer {
+  background-image: url(https://wallpapercave.com/wp/wp6203652.png);
+  background-size: cover;
+  width: 100%;
+  height: 9.3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 1.9rem;
+}
+
+.footer-menu {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  font-style: oblique;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-menu:hover {
+  background-color: rgb(237, 182, 240);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.Menu-item {
+  text-align: center;
+  color: rgb(108, 28, 189);
+  text-decoration: none;
+  padding: 1px;
+  margin: 0.8rem;
+}
+
+.Menu-item:hover {
+  color: black;
+}
+
+.footer-redes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  justify-content: left;
+  font-size: 1.6rem;
+}
+
+.capitulo_180 {
+  width: 90%;
+  height: 1%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.borde {
+  border-bottom: 0.2rem solid rgb(147, 112, 216);
+  font-size: 2rem;
+  color: rgb(250, 250, 250);
+  font-family: "Franklin Gothic Medium";
+}
+
+.caja {
+  font-family: "Franklin Gothic Medium";
+  font-size: 1.3rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.comentario {
+  width: 100%;
+  align-content: center;
+  background-color: rgb(188, 155, 219);
+  border-color: rgb(255, 255, 255);
+  border-style: double;
+  max-width: 20rem;
+  min-height: 4rem;
+  resize: none;
+  margin-top: 1rem;
+}
+
+section {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 2px;
+  width: 140px;
+}
+
+.menu-btn {
+  font-size: 25px;
+  color: rgb(14, 14, 14);
+  /* margin-left: 100px; */
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  font-family: "Comfortaa", cursive;
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 100px;
+  background: rgba(178, 121, 181, 0.95);
+  text-align: center;
+  transition: all 0.5s;
+
+}
+
+.nav-menu li {
+  display: none;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+
+.active {
+  color: rgb(27, 25, 25);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.active:hover {
+  color: rgb(62, 164, 220);
+  transition: 0.3s;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked~.nav-menu {
+  height: 70vh;
+}
+
+#check:checked~.nav-menu li {
+  display: block;
+}
+
+.banner-text {
+  font-family: Impact;
+  padding: 0 30px;
+  margin-top: 150px;
+  text-align: center;
+  color: rgb(127, 84, 196);
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.banner-text span {
+  color: rgb(182, 98, 199);
+}
+
+.banner-text h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button1 {
+  font-family: "Pacifico", cursive;
+  margin-right: 40ox;
+  padding: 10px 30px;
+  background-color: rgb(127, 84, 196);
+  color: white;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: rgb(209, 128, 225);
+  color: white;
+  transition: 0.5s;
+}
+
+.button2 {
+  font-family: "Pacifico", cursive;
+  margin-right: 40px;
+  padding: 10px 30px;
+  background-color: white;
+  color: rgb(127, 84, 196);
+  border-radius: 5px;
+}
+
+.button2:hover {
+  background-color: rgb(209, 128, 225);
+  color: white;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: 10px;
+  }
+
+  nav {
+    height: 100px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .nav-menu {
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    transition: none;
+    text-align: right;
+    margin-right: 12px;
+  }
+
+  .nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 20px;
+    transition: none;
+  }
+
+  .nav-menu li a {
+    font-size: 12px;
+  }
+
+  .active {
+    font-size: 12px;
+  }
+
+
+
+  .banner-tex h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .banner-tex h2 {
+    font-size: 20px;
+  }
+
+  .capitulo_180 {
+    width: 50%;
+    height: 1%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+
+}
